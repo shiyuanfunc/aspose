@@ -5,8 +5,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
-import java.net.URLEncoder;
-import java.sql.ResultSet;
+import java.net.URLEncoder;	
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -98,6 +97,8 @@ public class ExportExcel {
 		
 		String fileName = "C:\\Users\\song\\Desktop\\aspose导出文件2.xlsx" ; 
 		workbook.save(fileName);
+		
+		
 		return "success";
 	}
 	
